@@ -1,0 +1,23 @@
+-#
+-# %body
+-#
+-#   %div.login
+-#     %h3 Please submit your full name and email address to be notified when this collections drops.
+-#     %h3 Available 12/19 at 7:00 AM
+-#     %form{:action => "notify", :method => "post"}
+-#       -# %input{:name => "name", :placeholder => "NAME", :type => @notify.name}/
+-#       %input{:name => "name", :placeholder => "NAME", :type => "text"}/
+-#       %br/
+-#       -# %input{:name => "email", :placeholder => "EMAIL", :type => @notify.email}/
+-#       %input{:name => "email_address", :placeholder => "EMAIL", :type => "text"}/
+-#       %br/
+-#       %input{:type => "button", :value => "Send"}/
+-#       %br/
+-#       %br/
+-#
+-#       -# -if @email ==
+-#       -#   ="Submitted. we sent a messege to you to valify your email address"
+-#       -# -else
+-#       -#   ="please put valid email address"
+-#
+-#     =link_to "BACK_TO_HOME",home_top_path
